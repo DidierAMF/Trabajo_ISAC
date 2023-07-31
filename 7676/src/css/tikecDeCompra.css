@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF6ED;
+}
+
+.ticket {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.ticket-details {
+    margin-bottom: 20px;
+}
+
+.ticket-details p {
+    margin: 5px 0;
+}
+
+.ticket-details strong {
+    font-weight: bold;
+}
+
+.ticket-qrcode {
+    text-align: center;
+    /* Agrega estilos para el código QR si es necesario */
+}

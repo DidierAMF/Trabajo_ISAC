@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #FFF6ED;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  .bus-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .seat {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    margin: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background-color: #00a8ff; /* Color for the selected seat */
+  }
+  
+  .seat.occupied {
+    background-color: #ff3f34; /* Color for the occupied seat */
+  }
+  
+  /* Additional styles to improve appearance */
+  .bus-layout {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative; /* To make sure the button is positioned relative to this container */
+  }
+  
+  /* Styles for the Confirmar button */
+  .confirm-button {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    padding: 10px 20px;
+    background-color: #00a8ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

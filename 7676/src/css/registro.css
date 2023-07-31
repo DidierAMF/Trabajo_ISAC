@@ -1,0 +1,70 @@
+  body {
+    background-color: #FFF6ED;
+    margin: 0;
+    padding: 0;
+  }
+  .imagen-registro{
+    width: 10%;
+    position: absolute ;
+    top: 10%;
+    left: 26%;
+    opacity: .2hz;
+  }
+
+  .conteiner-registro {
+    text-align: center;
+  }
+
+  
+  .titulo-registro {
+    color: #363A3E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+  }
+  
+  .titulo-2-registro {
+    color: #FFBD59;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 45px;
+    margin-left: 2px;
+  }
+
+
+  .conteiner-formulario{
+    font-size: 70px;
+    text-align: center;
+    
+  }
+
+  .conteiner-formulario input{
+    border-radius: 50px; 
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: auto;
+    opacity: .5px;
+  }
+
+  .button-registro{
+    border-radius: 50px; 
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: auto;
+    opacity: .5px;
+  }
